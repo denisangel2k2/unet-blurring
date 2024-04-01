@@ -1,0 +1,8 @@
+wandb_version: 1
+
+epochs:
+  value: 2
+learning_rate:
+  value: 0.002569969064679621
+optimizer:
+  value: adam

@@ -1,0 +1,37 @@
+2024-01-11 01:14:33,748 INFO    Thread-10 (_run_job):1932 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2024-01-11 01:14:33,748 INFO    Thread-10 (_run_job):1932 [wandb_setup.py:_flush():76] Configure stats pid to 1932
+2024-01-11 01:14:33,748 INFO    Thread-10 (_run_job):1932 [wandb_setup.py:_flush():76] Loading settings from C:\Users\denis\.config\wandb\settings
+2024-01-11 01:14:33,748 INFO    Thread-10 (_run_job):1932 [wandb_setup.py:_flush():76] Loading settings from D:\UBB\CVDL\Project\wandb\settings
+2024-01-11 01:14:33,748 INFO    Thread-10 (_run_job):1932 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'UNET2', 'entity': 'anony-moose-967799623103164882', 'root_dir': 'D:\\UBB\\CVDL\\Project', 'sweep_id': 'ankcvir4', 'run_id': 'bfe6c4tz', 'sweep_param_path': 'D:\\UBB\\CVDL\\Project\\wandb\\sweep-ankcvir4\\config-bfe6c4tz.yaml'}
+2024-01-11 01:14:33,749 INFO    Thread-10 (_run_job):1932 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-11 01:14:33,749 INFO    Thread-10 (_run_job):1932 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': 'd:\\UBB\\CVDL\\Project\\train.py', 'program': 'd:\\UBB\\CVDL\\Project\\train.py'}
+2024-01-11 01:14:33,749 INFO    Thread-10 (_run_job):1932 [wandb_init.py:_log_setup():524] Logging user logs to D:\UBB\CVDL\Project\wandb\run-20240111_011433-bfe6c4tz\logs\debug.log
+2024-01-11 01:14:33,749 INFO    Thread-10 (_run_job):1932 [wandb_init.py:_log_setup():525] Logging internal logs to D:\UBB\CVDL\Project\wandb\run-20240111_011433-bfe6c4tz\logs\debug-internal.log
+2024-01-11 01:14:33,749 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():564] calling init triggers
+2024-01-11 01:14:33,749 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():571] wandb.init called with sweep_config: {'epochs': 1, 'learning_rate': 0.00953726163511555, 'momentum': 0.9973002186449011, 'test_percent': 0.15827785097306368, 'validation_percent': 0.297480766488445}
+config: {}
+2024-01-11 01:14:33,749 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():614] starting backend
+2024-01-11 01:14:33,749 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():618] setting up manager
+2024-01-11 01:14:33,755 INFO    Thread-10 (_run_job):1932 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-01-11 01:14:33,758 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():624] backend started and connected
+2024-01-11 01:14:33,774 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_config_callback():1342] config_cb None None {'epochs': 1, 'learning_rate': 0.00953726163511555, 'momentum': 0.9973002186449011, 'test_percent': 0.15827785097306368, 'validation_percent': 0.297480766488445}
+2024-01-11 01:14:33,775 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():716] updated telemetry
+2024-01-11 01:14:33,815 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-01-11 01:14:34,628 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():792] run resumed
+2024-01-11 01:14:34,642 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_on_init():2254] communicating current version
+2024-01-11 01:14:35,015 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.16.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-01-11 01:14:35,015 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():800] starting run threads in backend
+2024-01-11 01:14:35,073 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_console_start():2233] atexit reg
+2024-01-11 01:14:35,073 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-01-11 01:14:35,073 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-01-11 01:14:35,073 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-01-11 01:14:35,074 INFO    Thread-10 (_run_job):1932 [wandb_init.py:init():841] run started, returning control to user process
+2024-01-11 01:14:35,075 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_config_callback():1342] config_cb None None {'batch_size': 4, 'save_checkpoint': False}
+2024-01-11 01:14:35,075 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_finish():1962] finishing run anony-moose-967799623103164882/UNET2/bfe6c4tz
+2024-01-11 01:14:35,075 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 1
+2024-01-11 01:14:35,075 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_restore():2185] restore
+2024-01-11 01:14:35,076 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_restore():2191] restore done
+2024-01-11 01:14:40,501 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-01-11 01:14:40,501 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-01-11 01:14:40,504 INFO    Thread-10 (_run_job):1932 [wandb_run.py:_footer_sync_info():3796] logging synced files

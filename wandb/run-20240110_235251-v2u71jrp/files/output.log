@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/1: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [02:55<00:00,  9.08img/s, loss (batch)=0.272]
+Validation:   0%|                                                                                                                                                | 0/147 [00:00<?, ?batch/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/1: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [03:30<00:00,  9.76img/s, loss (batch)=0.272]
+Traceback (most recent call last):
+  File "d:\UBB\CVDL\Project\train.py", line 118, in <module>
+    main()
+  File "d:\UBB\CVDL\Project\train.py", line 114, in main
+    train_model(dataset,model,device,epochs=1)
+  File "d:\UBB\CVDL\Project\train.py", line 99, in train_model
+    artifact=wandb.Artifact('best_model','model',type='model', metadata={'mpa': mpa})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Artifact.__init__() got multiple values for argument 'type'

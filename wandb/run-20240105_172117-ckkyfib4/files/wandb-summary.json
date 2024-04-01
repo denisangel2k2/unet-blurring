@@ -1,0 +1,1 @@
+{"train loss": 0.5132906436920166, "step": 29, "epoch": 1, "mean acc pixel": 2.57424, "mIoU": 0.0, "_timestamp": 1704468089.317237, "_runtime": 12.094719886779785, "_step": 28, "_wandb": {"runtime": 11}}

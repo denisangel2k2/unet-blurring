@@ -1,0 +1,20 @@
+2024-01-05 19:30:27,361 INFO    StreamThr :25304 [internal.py:wandb_internal():86] W&B internal server running at pid: 25304, started at: 2024-01-05 19:30:27.361047
+2024-01-05 19:30:27,362 DEBUG   HandlerThread:25304 [handler.py:handle_request():146] handle_request: status
+2024-01-05 19:30:27,364 INFO    WriterThread:25304 [datastore.py:open_for_write():85] open: D:\UBB\CVDL\Project\wandb\run-20240105_193027-a77gqbdx\run-a77gqbdx.wandb
+2024-01-05 19:30:27,365 DEBUG   SenderThread:25304 [sender.py:send():382] send: header
+2024-01-05 19:30:27,392 DEBUG   SenderThread:25304 [sender.py:send():382] send: run
+2024-01-05 19:30:27,394 INFO    SenderThread:25304 [sender.py:_maybe_setup_resume():763] checking resume status for None/UNET2/a77gqbdx
+2024-01-05 19:30:28,203 INFO    SenderThread:25304 [dir_watcher.py:__init__():211] watching files in: D:\UBB\CVDL\Project\wandb\run-20240105_193027-a77gqbdx\files
+2024-01-05 19:30:28,203 INFO    SenderThread:25304 [sender.py:_start_run_threads():1136] run started: a77gqbdx with start time 1704475827.362045
+2024-01-05 19:30:28,216 DEBUG   HandlerThread:25304 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-05 19:30:28,216 INFO    HandlerThread:25304 [handler.py:finish():866] shutting down handler
+2024-01-05 19:30:28,394 INFO    WriterThread:25304 [datastore.py:close():294] close: D:\UBB\CVDL\Project\wandb\run-20240105_193027-a77gqbdx\run-a77gqbdx.wandb
+2024-01-05 19:30:29,213 INFO    SenderThread:25304 [sender.py:finish():1548] shutting down sender
+2024-01-05 19:30:29,213 INFO    SenderThread:25304 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-05 19:30:30,221 INFO    SenderThread:25304 [dir_watcher.py:finish():388] scan: D:\UBB\CVDL\Project\wandb\run-20240105_193027-a77gqbdx\files
+2024-01-05 19:30:30,222 INFO    SenderThread:25304 [dir_watcher.py:finish():402] scan save: D:\UBB\CVDL\Project\wandb\run-20240105_193027-a77gqbdx\files\config.yaml config.yaml
+2024-01-05 19:30:30,222 INFO    SenderThread:25304 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-05 19:30:30,222 INFO    SenderThread:25304 [file_pusher.py:join():181] waiting for file pusher
+2024-01-05 19:30:31,038 INFO    wandb-upload_0:25304 [upload_job.py:push():131] Uploaded file D:\UBB\CVDL\Project\wandb\run-20240105_193027-a77gqbdx\files\config.yaml
+2024-01-05 19:30:31,724 INFO    SenderThread:25304 [file_stream.py:finish():595] file stream finish called
+2024-01-05 19:30:32,098 INFO    SenderThread:25304 [file_stream.py:finish():599] file stream finish is done

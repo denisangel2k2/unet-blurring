@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/3: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [03:08<00:00,  8.32img/s, loss (batch)=0.256]
+Traceback (most recent call last):
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2992, in fromarray
+    mode, rawmode = _fromarray_typemap[typekey]
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: ((1, 1, 250), '|u1')
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "d:\UBB\CVDL\Project\train.py", line 107, in <module>
+    main()
+  File "d:\UBB\CVDL\Project\train.py", line 103, in main
+    train_model(dataset,model,device,epochs=3)
+  File "d:\UBB\CVDL\Project\train.py", line 91, in train_model
+    eval_model(model,validation_loader,experiment,criterion,device,epoch)
+  File "d:\UBB\CVDL\Project\evaluation.py", line 85, in eval_model
+    pred_table.add_data(id,wandb.Image(images[0]),wandb.Image(guess),wandb.Image(masks[0]),epoch)
+                                                  ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\data_types\image.py", line 179, in __init__
+    self._initialize_from_data(data_or_path, mode, file_type)
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\data_types\image.py", line 315, in _initialize_from_data
+    self._image = pil_image.fromarray(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2994, in fromarray
+    raise TypeError("Cannot handle this data type: %s, %s" % typekey) from e
+TypeError: Cannot handle this data type: (1, 1, 250), |u1

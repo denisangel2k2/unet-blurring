@@ -1,0 +1,53 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 3
+learning_rate:
+  desc: null
+  value: 0.0049590883691261745
+momentum:
+  desc: null
+  value: 0.9260984497908084
+test_percent:
+  desc: null
+  value: 0.06024688644887394
+validation_percent:
+  desc: null
+  value: 0.25077839017480524
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.5
+    cli_version: 0.16.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1704929078.733499
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      - 105
+      2:
+      - 1
+      - 41
+      - 55
+      - 105
+      3:
+      - 2
+      - 5
+      - 23
+      4: 3.11.5
+      5: 0.16.1
+      8:
+      - 3
+      - 5
+      13: windows-amd64
+batch_size:
+  desc: null
+  value: 4
+save_checkpoint:
+  desc: null
+  value: false

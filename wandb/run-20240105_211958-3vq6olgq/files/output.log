@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/7: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [03:09<00:00,  7.84img/s, loss (batch)=0.607]
+Traceback (most recent call last):
+  File "d:\UBB\CVDL\Project\train.py", line 107, in <module>
+    main()
+  File "d:\UBB\CVDL\Project\train.py", line 103, in main
+    train_model(dataset,model,device,epochs=7)
+  File "d:\UBB\CVDL\Project\train.py", line 91, in train_model
+    eval_model(model,validation_loader,experiment,criterion,device,epoch)
+  File "d:\UBB\CVDL\Project\evaluation.py", line 101, in eval_model
+    pred_table.add_data({
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\data_types.py", line 466, in add_data
+    raise ValueError(
+ValueError: This table expects 4 columns: ['image', 'guess', 'truth', 'epoch'], found 1

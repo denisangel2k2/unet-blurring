@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/3:  43%|██████████████████████████████████████████████████▏                                                                   | 872/2050 [01:38<02:13,  8.84img/s, loss (batch)=0.904]
+Traceback (most recent call last):
+  File "d:\UBB\CVDL\Project\train.py", line 117, in <module>
+    main()
+  File "d:\UBB\CVDL\Project\train.py", line 113, in main
+    train_model(dataset,model,device,epochs=3)
+  File "d:\UBB\CVDL\Project\train.py", line 79, in train_model
+    epoch_loss+=loss.item()
+                ^^^^^^^^^^^
+KeyboardInterrupt

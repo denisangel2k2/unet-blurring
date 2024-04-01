@@ -1,0 +1,12 @@
+wandb_version: 1
+
+epochs:
+  value: 3
+learning_rate:
+  value: 0.0049590883691261745
+momentum:
+  value: 0.9260984497908084
+test_percent:
+  value: 0.06024688644887394
+validation_percent:
+  value: 0.25077839017480524

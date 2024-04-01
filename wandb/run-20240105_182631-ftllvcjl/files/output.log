@@ -1,0 +1,120 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/3: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [03:13<00:00,  7.45img/s, loss (batch)=0.359]
+Traceback (most recent call last):
+  File "d:\UBB\CVDL\Project\train.py", line 107, in <module>
+    main()
+  File "d:\UBB\CVDL\Project\train.py", line 103, in main
+    train_model(dataset,model,device,epochs=3)
+  File "d:\UBB\CVDL\Project\train.py", line 91, in train_model
+    eval_model(model,validation_loader,experiment,criterion,device,epoch,pred_table)
+  File "d:\UBB\CVDL\Project\evaluation.py", line 79, in eval_model
+    mIoU+=mean_intersection_over_union(masks,masks_predictions)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\UBB\CVDL\Project\evaluation.py", line 37, in mean_intersection_over_union
+    iou_mean.append(intersection_over_union(y_true, y_pred, class_pixel_index))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\UBB\CVDL\Project\evaluation.py", line 25, in intersection_over_union
+    intersection = np.sum((y_true - class_pixel_index < 0.001) & (y_pred - class_pixel_index < 0.001))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py", line 2313, in sum
+    return _wrapreduction(a, np.add, 'sum', axis, dtype, out, keepdims=keepdims,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py", line 88, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

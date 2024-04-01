@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/7: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [03:47<00:00,  7.33img/s, loss (batch)=0.221]
+Validation:   0%|                                                                                                                   | 0/147 [00:00<?, ?batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   1%|▋                                                                                                          | 1/147 [00:02<06:14,  2.57s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   1%|█▍                                                                                                         | 2/147 [00:04<05:50,  2.42s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   2%|██▏                                                                                                        | 3/147 [00:06<04:32,  1.89s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   3%|██▉                                                                                                        | 4/147 [00:08<04:36,  1.93s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   3%|███▋                                                                                                       | 5/147 [00:09<04:10,  1.76s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   4%|████▎                                                                                                      | 6/147 [00:11<04:09,  1.77s/batch]
+Validation:   5%|█████                                                                                                      | 7/147 [00:12<03:31,  1.51s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   5%|█████▊                                                                                                     | 8/147 [00:13<03:06,  1.34s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   6%|██████▌                                                                                                    | 9/147 [00:15<03:32,  1.54s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   7%|███████▏                                                                                                  | 10/147 [00:16<03:16,  1.43s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   7%|███████▉                                                                                                  | 11/147 [00:18<03:25,  1.51s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   8%|████████▋                                                                                                 | 12/147 [00:19<03:18,  1.47s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   9%|█████████▎                                                                                                | 13/147 [00:20<02:59,  1.34s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  10%|██████████                                                                                                | 14/147 [00:24<04:32,  2.05s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  10%|██████████▊                                                                                               | 15/147 [00:25<03:54,  1.78s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  11%|███████████▌                                                                                              | 16/147 [00:42<13:49,  6.33s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  12%|████████████▎                                                                                             | 17/147 [00:43<10:10,  4.70s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  12%|████████████▉                                                                                             | 18/147 [00:43<07:31,  3.50s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  13%|█████████████▋                                                                                            | 19/147 [00:45<05:58,  2.80s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  14%|██████████████▍                                                                                           | 20/147 [00:46<04:53,  2.31s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  14%|███████████████▏                                                                                          | 21/147 [00:47<04:03,  1.94s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  15%|███████████████▊                                                                                          | 22/147 [00:48<03:42,  1.78s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  16%|████████████████▌                                                                                         | 23/147 [00:49<03:13,  1.56s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  16%|█████████████████▎                                                                                        | 24/147 [00:54<04:53,  2.39s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  17%|██████████████████                                                                                        | 25/147 [00:55<04:07,  2.03s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  18%|██████████████████▋                                                                                       | 26/147 [00:56<03:44,  1.85s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  18%|███████████████████▍                                                                                      | 27/147 [00:57<03:17,  1.64s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  19%|████████████████████▏                                                                                     | 28/147 [00:59<02:59,  1.50s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  20%|████████████████████▉                                                                                     | 29/147 [01:00<02:48,  1.43s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  20%|█████████████████████▋                                                                                    | 30/147 [01:01<02:35,  1.33s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  21%|██████████████████████▎                                                                                   | 31/147 [01:02<02:35,  1.34s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.

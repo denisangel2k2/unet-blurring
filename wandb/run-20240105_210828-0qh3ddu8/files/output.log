@@ -1,0 +1,305 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/7: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [03:55<00:00,  4.78img/s, loss (batch)=0.219]
+Validation:   0%|                                                                                                                                    | 0/147 [00:00<?, ?batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   1%|▊                                                                                                                           | 1/147 [00:05<12:39,  5.20s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   1%|█▋                                                                                                                          | 2/147 [00:07<08:17,  3.43s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   2%|██▌                                                                                                                         | 3/147 [00:08<05:33,  2.32s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   3%|███▎                                                                                                                        | 4/147 [00:09<04:27,  1.87s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   3%|████▏                                                                                                                       | 5/147 [00:11<04:11,  1.77s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   4%|█████                                                                                                                       | 6/147 [00:12<03:31,  1.50s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   5%|█████▉                                                                                                                      | 7/147 [00:13<03:34,  1.53s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   5%|██████▋                                                                                                                     | 8/147 [00:14<03:19,  1.44s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   6%|███████▌                                                                                                                    | 9/147 [00:15<02:57,  1.29s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   7%|████████▎                                                                                                                  | 10/147 [00:17<03:10,  1.39s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   7%|█████████▏                                                                                                                 | 11/147 [00:18<02:57,  1.31s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   8%|██████████                                                                                                                 | 12/147 [00:19<02:48,  1.25s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:   9%|██████████▉                                                                                                                | 13/147 [00:21<03:22,  1.51s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  10%|███████████▋                                                                                                               | 14/147 [00:23<03:05,  1.40s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  10%|████████████▌                                                                                                              | 15/147 [00:24<02:56,  1.33s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  11%|█████████████▍                                                                                                             | 16/147 [00:25<02:58,  1.36s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  12%|██████████████▏                                                                                                            | 17/147 [00:26<02:40,  1.24s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  12%|███████████████                                                                                                            | 18/147 [00:27<02:39,  1.24s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  13%|███████████████▉                                                                                                           | 19/147 [00:28<02:33,  1.20s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  14%|████████████████▋                                                                                                          | 20/147 [00:29<02:23,  1.13s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  14%|█████████████████▌                                                                                                         | 21/147 [00:32<02:59,  1.42s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  15%|██████████████████▍                                                                                                        | 22/147 [00:33<02:48,  1.35s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  16%|███████████████████▏                                                                                                       | 23/147 [00:34<02:37,  1.27s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  16%|████████████████████                                                                                                       | 24/147 [00:53<13:23,  6.53s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  17%|████████████████████▉                                                                                                      | 25/147 [00:53<09:50,  4.84s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  18%|█████████████████████▊                                                                                                     | 26/147 [00:54<07:16,  3.61s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  18%|██████████████████████▌                                                                                                    | 27/147 [00:55<05:36,  2.81s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  19%|███████████████████████▍                                                                                                   | 28/147 [00:56<04:32,  2.29s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  20%|████████████████████████▎                                                                                                  | 29/147 [00:57<03:50,  1.96s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  20%|█████████████████████████                                                                                                  | 30/147 [00:59<03:27,  1.77s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  21%|█████████████████████████▉                                                                                                 | 31/147 [01:00<03:06,  1.61s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  22%|██████████████████████████▊                                                                                                | 32/147 [01:01<03:02,  1.58s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  22%|███████████████████████████▌                                                                                               | 33/147 [01:03<02:46,  1.46s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  23%|████████████████████████████▍                                                                                              | 34/147 [01:04<02:36,  1.39s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  24%|█████████████████████████████▎                                                                                             | 35/147 [01:05<02:36,  1.40s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  24%|██████████████████████████████                                                                                             | 36/147 [01:06<02:25,  1.31s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  25%|██████████████████████████████▉                                                                                            | 37/147 [01:08<02:25,  1.32s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  26%|███████████████████████████████▊                                                                                           | 38/147 [01:09<02:15,  1.25s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  27%|████████████████████████████████▋                                                                                          | 39/147 [01:10<02:06,  1.18s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  27%|█████████████████████████████████▍                                                                                         | 40/147 [01:11<02:14,  1.26s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  28%|██████████████████████████████████▎                                                                                        | 41/147 [01:12<02:11,  1.24s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  29%|███████████████████████████████████▏                                                                                       | 42/147 [01:14<02:18,  1.32s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  29%|███████████████████████████████████▉                                                                                       | 43/147 [01:15<02:10,  1.26s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  30%|████████████████████████████████████▊                                                                                      | 44/147 [01:16<01:59,  1.16s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  31%|█████████████████████████████████████▋                                                                                     | 45/147 [01:17<01:56,  1.14s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  31%|██████████████████████████████████████▍                                                                                    | 46/147 [01:18<01:42,  1.01s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  32%|███████████████████████████████████████▎                                                                                   | 47/147 [01:19<01:33,  1.07batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  33%|████████████████████████████████████████▏                                                                                  | 48/147 [01:20<01:42,  1.04s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  33%|█████████████████████████████████████████                                                                                  | 49/147 [01:21<01:35,  1.03batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  34%|█████████████████████████████████████████▊                                                                                 | 50/147 [01:21<01:27,  1.10batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  35%|██████████████████████████████████████████▋                                                                                | 51/147 [01:23<01:36,  1.01s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  35%|███████████████████████████████████████████▌                                                                               | 52/147 [01:24<01:31,  1.04batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  36%|████████████████████████████████████████████▎                                                                              | 53/147 [01:24<01:27,  1.08batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  37%|█████████████████████████████████████████████▏                                                                             | 54/147 [01:26<01:37,  1.05s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  37%|██████████████████████████████████████████████                                                                             | 55/147 [01:27<01:29,  1.03batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  38%|██████████████████████████████████████████████▊                                                                            | 56/147 [01:27<01:21,  1.11batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  39%|███████████████████████████████████████████████▋                                                                           | 57/147 [01:28<01:25,  1.05batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  39%|████████████████████████████████████████████████▌                                                                          | 58/147 [01:29<01:22,  1.08batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  40%|█████████████████████████████████████████████████▎                                                                         | 59/147 [01:30<01:24,  1.04batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  41%|██████████████████████████████████████████████████▏                                                                        | 60/147 [01:31<01:30,  1.04s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  41%|███████████████████████████████████████████████████                                                                        | 61/147 [01:32<01:26,  1.00s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  42%|███████████████████████████████████████████████████▉                                                                       | 62/147 [01:33<01:24,  1.00batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  43%|████████████████████████████████████████████████████▋                                                                      | 63/147 [01:35<01:29,  1.07s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  44%|█████████████████████████████████████████████████████▌                                                                     | 64/147 [01:36<01:28,  1.07s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  44%|██████████████████████████████████████████████████████▍                                                                    | 65/147 [01:37<01:34,  1.15s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  45%|███████████████████████████████████████████████████████▏                                                                   | 66/147 [01:38<01:35,  1.18s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  46%|████████████████████████████████████████████████████████                                                                   | 67/147 [01:39<01:28,  1.11s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  46%|████████████████████████████████████████████████████████▉                                                                  | 68/147 [01:40<01:28,  1.12s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  47%|█████████████████████████████████████████████████████████▋                                                                 | 69/147 [01:41<01:23,  1.07s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  48%|██████████████████████████████████████████████████████████▌                                                                | 70/147 [01:42<01:19,  1.03s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  48%|███████████████████████████████████████████████████████████▍                                                               | 71/147 [01:43<01:17,  1.02s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  49%|████████████████████████████████████████████████████████████▏                                                              | 72/147 [01:44<01:13,  1.02batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  50%|█████████████████████████████████████████████████████████████                                                              | 73/147 [01:45<01:10,  1.04batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  50%|█████████████████████████████████████████████████████████████▉                                                             | 74/147 [01:46<01:09,  1.04batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  51%|██████████████████████████████████████████████████████████████▊                                                            | 75/147 [01:47<01:08,  1.05batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  52%|███████████████████████████████████████████████████████████████▌                                                           | 76/147 [01:48<01:06,  1.07batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  52%|████████████████████████████████████████████████████████████████▍                                                          | 77/147 [01:49<01:07,  1.04batch/s][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  53%|█████████████████████████████████████████████████████████████████▎                                                         | 78/147 [01:52<01:46,  1.54s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  54%|██████████████████████████████████████████████████████████████████                                                         | 79/147 [02:03<04:59,  4.40s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  54%|██████████████████████████████████████████████████████████████████▉                                                        | 80/147 [02:04<03:44,  3.35s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  55%|███████████████████████████████████████████████████████████████████▊                                                       | 81/147 [02:04<02:49,  2.57s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  56%|████████████████████████████████████████████████████████████████████▌                                                      | 82/147 [02:05<02:10,  2.01s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  56%|█████████████████████████████████████████████████████████████████████▍                                                     | 83/147 [02:06<01:43,  1.61s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  57%|██████████████████████████████████████████████████████████████████████▎                                                    | 84/147 [02:07<01:27,  1.38s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Validation:  58%|███████████████████████████████████████████████████████████████████████                                                    | 85/147 [02:08<01:16,  1.23s/batch][34m[1mwandb[39m[22m: [33mWARNING[39m Artifacts logged anonymously cannot be claimed and expire after 7 days.
+Epoch 1/7: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [06:04<00:00,  5.62img/s, loss (batch)=0.219]
+Traceback (most recent call last):
+  File "d:\UBB\CVDL\Project\train.py", line 107, in <module>
+    main()
+  File "d:\UBB\CVDL\Project\train.py", line 103, in main
+    train_model(dataset,model,device,epochs=7)
+  File "d:\UBB\CVDL\Project\train.py", line 91, in train_model
+    eval_model(model,validation_loader,experiment,criterion,device,epoch)
+  File "d:\UBB\CVDL\Project\evaluation.py", line 115, in eval_model
+    wandb_experiment.log({'predictions':pred_table})
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 1820, in log
+    self._log(data=data, step=step, commit=commit)
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 1595, in _log
+    self._partial_history_callback(data, step, commit)
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 1467, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\interface\interface.py", line 549, in publish_partial_history
+    data = history_dict_to_json(run, data, step=user_step, ignore_copy_err=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\data_types\utils.py", line 52, in history_dict_to_json
+    payload[key] = val_to_json(
+                   ^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\data_types\utils.py", line 157, in val_to_json
+    run.log_artifact(art)
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 2868, in log_artifact
+    return self._log_artifact(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 3007, in _log_artifact
+    self._assert_can_log_artifact(artifact)
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 3055, in _assert_can_log_artifact
+    expected_type = Artifact._expected_type(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\artifacts\artifact.py", line 2201, in _expected_type
+    response = client.execute(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\lib\retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\apis\public.py", line 218, in execute
+    return self._client.execute(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1378, in getresponse
+    response.begin()
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1311, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denis\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1167, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

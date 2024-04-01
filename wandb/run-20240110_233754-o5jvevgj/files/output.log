@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/2: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2050/2050 [03:02<00:00, 11.25img/s, loss (batch)=0.321]
+Traceback (most recent call last):
+  File "d:\UBB\CVDL\Project\train.py", line 106, in <module>
+    main()
+  File "d:\UBB\CVDL\Project\train.py", line 102, in main
+    train_model(dataset,model,device,epochs=2)
+  File "d:\UBB\CVDL\Project\train.py", line 90, in train_model
+    eval_model(model,validation_loader,experiment,criterion,device,epoch)
+  File "d:\UBB\CVDL\Project\evaluation.py", line 123, in eval_model
+    mIoU+=iou(masks,masks_predictions)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\UBB\CVDL\Project\evaluation.py", line 51, in iou
+    preds = torch.cat(preds)
+            ^^^^^^^^^^^^^^^^
+TypeError: cat(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor

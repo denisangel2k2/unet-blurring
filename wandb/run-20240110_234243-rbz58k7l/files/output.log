@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/2:  15%|█████████████████▏                                                                                                  | 304/2050 [00:27<02:36, 11.16img/s, loss (batch)=0.546]
+Traceback (most recent call last):
+  File "d:\UBB\CVDL\Project\train.py", line 106, in <module>
+    main()
+  File "d:\UBB\CVDL\Project\train.py", line 102, in main
+    train_model(dataset,model,device,epochs=2)
+  File "d:\UBB\CVDL\Project\train.py", line 82, in train_model
+    'train loss': loss.item(),
+                  ^^^^^^^^^^^
+KeyboardInterrupt
