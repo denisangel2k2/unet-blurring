@@ -18,6 +18,9 @@ Images are preprocessed to match the shapes needed for the model.
 UNet: A convolutional neural network architecture well-suited for image segmentation tasks.
 Encoder: Downsampling path to extract features.
 Decoder: Upsampling path to generate segmentation masks.
+
+![image](https://github.com/denisangel2k2/unet-blurring/assets/57831211/bc501e60-9261-4f56-9043-c480421d0436)
+
 - Training
 The model is trained on the LFW dataset using cross-entropy loss.
 Adam optimizer with a ReduceLROnPlateau learning rate scheduler is employed to optimize the model parameters.
